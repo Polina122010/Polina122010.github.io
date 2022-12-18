@@ -1,0 +1,84 @@
+.header{
+    background: url("merry-christmas-g4cbb327ae_1920.png");
+    background-size: 60% 100%;
+    background-repeat: no-repeat;
+    background-position: 40%;
+    height: 20vh;
+}
+body{
+    background-image: url("Garland-Light-Transparent-PNG.png");
+    background-repeat: no-repeat;
+    background-size: 100% 10%;
+    background-color: aliceblue;
+}
+.conteiner{
+    display:flex;
+    width: 100%;
+    height: 200vh;
+    background-color: white;
+    flex-direction: row;
+}
+img{
+    width: 60%;
+    height: 20vh;
+    background-repeat: no-repeat;
+}
+.img2{
+    width: 20%;
+    height: 40vh;
+   justify-content: flex-end;
+    position: fixed;
+    left:80%;
+    top:38%;
+}
+.img3{
+    margin-left: 15%;
+    width: 70%;
+    height: 30vh;
+}
+video{
+    width: 80%;
+    height: 40vh;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.t1{
+    font-style:italic;
+}
+.header{
+    display:flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 20vh;
+    flex-wrap: nowrap;
+}
+.cell2{
+    background-color: rgb(70, 102, 49);
+    background-color: rgb(36, 8 7, 38);
+    flex-wrap: nowrap; display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+}
+.cell5{
+    width: 80%;
+    height: 200vh;
+    background-color: white;
+}
+.cell4{
+    width:100%;
+    height: 20vh;
+    background-color: rgb(32, 71, 32);
+    }
+button{
+width: 200px;
+height: 70px;
+background-color: rgb(223, 194, 65);
+
+}
+button:hover{
+    background-color: rgb(202, 92, 77);
+}
